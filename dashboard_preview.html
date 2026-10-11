@@ -1,0 +1,53 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Poultry Analytics Dashboard Preview</title>
+<style>
+body{font-family:Arial,sans-serif;background:#f3f6f8;color:#183247;margin:0;padding:28px}
+.wrap{max-width:1100px;margin:auto}h1{font-size:30px;margin-bottom:6px}.sub{color:#526773;margin-bottom:24px}
+.notice{background:#fff2cc;border-left:5px solid #d6a800;padding:14px;margin:18px 0;border-radius:6px;line-height:1.45}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+.card,.panel{background:white;border-radius:10px;padding:18px;box-shadow:0 2px 10px #102b3a12}
+.card .name{font-size:13px;color:#526773}.card .value{font-size:25px;font-weight:700;margin:9px 0}.card .detail{font-size:12px;color:#667781}
+h2{margin-top:28px}.stage{background:white;border-radius:10px;padding:16px;margin:12px 0;box-shadow:0 2px 10px #102b3a12}
+.stage h3{display:flex;justify-content:space-between;gap:12px}.stage h3 span{font-size:11px;color:#9a5d00;background:#fff2cc;padding:5px 8px;border-radius:5px}
+.label{font-size:13px;margin:9px 0 5px}.bar{height:12px;border-radius:6px;min-width:2px}.rev{background:#1e6478}.cost{background:#e0a33a}
+table{border-collapse:collapse;width:100%;background:#fff;margin-top:12px}th,td{padding:10px;border-bottom:1px solid #dce3e7;text-align:left;font-size:13px}th{background:#17324d;color:white}
+footer{margin-top:30px;color:#63747c;font-size:12px}
+</style></head><body><div class="wrap">
+<h1>Poultry Production Analytics</h1><div class="sub">Historical performance and expansion scenario preview | Anambra State, Nigeria</div>
+<div class="notice"><b>Interpretation warning:</b> The historical cycle is real; scale-up numbers are linear illustrations based on that baseline, not forecasts. The ₦524,100 surplus excludes unrecorded costs and must not be called net profit.</div>
+<div class="cards"><div class="card"><div class="name">Sales revenue</div><div class="value">₦830,000</div><div class="detail">Approximate actual</div></div><div class="card"><div class="name">Documented costs</div><div class="value">₦305,900</div><div class="detail">Actual/approximate listed costs</div></div><div class="card"><div class="name">Preliminary surplus</div><div class="value">₦524,100</div><div class="detail">Before missing costs</div></div><div class="card"><div class="name">Survival rate</div><div class="value">96%</div><div class="detail">48 sold from 50 placed</div></div></div>
+<h2>Sequential expansion illustration</h2>
+<p>Commercial-feed scenario using baseline unit economics; unknown costs and capital expenditure are excluded.</p>
+
+    <div class="stage">
+      <h3>1,000 birds <span>illustrative only</span></h3>
+      <div class="label">Revenue: ₦16,600,000</div>
+      <div class="bar rev" style="width:20.0%"></div>
+      <div class="label">Known costs: ₦6,118,000</div>
+      <div class="bar cost" style="width:7.4%"></div>
+      <div class="label">Preliminary surplus*: ₦10,482,000</div>
+    </div>
+    <div class="stage">
+      <h3>3,000 birds <span>illustrative only</span></h3>
+      <div class="label">Revenue: ₦49,800,000</div>
+      <div class="bar rev" style="width:60.0%"></div>
+      <div class="label">Known costs: ₦18,354,000</div>
+      <div class="bar cost" style="width:22.1%"></div>
+      <div class="label">Preliminary surplus*: ₦31,446,000</div>
+    </div>
+    <div class="stage">
+      <h3>5,000 birds <span>illustrative only</span></h3>
+      <div class="label">Revenue: ₦83,000,000</div>
+      <div class="bar rev" style="width:100.0%"></div>
+      <div class="label">Known costs: ₦30,590,000</div>
+      <div class="bar cost" style="width:36.9%"></div>
+      <div class="label">Preliminary surplus*: ₦52,410,000</div>
+    </div>
+<div class="panel"><h2>Feed make-or-buy hypothesis</h2>
+<table><tr><th>Feed option</th><th>Cost for 50-bird batch</th><th>Evidence</th></tr>
+<tr><td>Commercial starter + finisher</td><td>₦186,400</td><td>Documented actual</td></tr>
+<tr><td>Proposed in-house starter + finisher</td><td>₦90,000</td><td>Estimate only; not implemented</td></tr>
+<tr><td>Simple cost difference</td><td>₦96,400</td><td>Excludes transport, milling, power, labour, quality control and capital costs</td></tr></table>
+</div>
+<footer>* Preliminary surplus = revenue less known costs only. Populate missing operating costs, equipment quotations, hatchery inputs and reserve requirements before using this model for business decisions.</footer>
+</div></body></html>
