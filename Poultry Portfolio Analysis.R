@@ -4,8 +4,8 @@
 # not forecasts. They scale the 50-bird results linearly and exclude unknown operating costs/capex.
 # Keep actual data and model assumptions clearly separated.
 
-baseline <- read.csv("C:/Users/Kiswado/OneDrive/Documents/Poultry_Analytics_Portfolio_Complete/historical_baseline.csv", na.strings = c("", "NA"), stringsAsFactors = FALSE)
-inputs <- read.csv("C:/Users/Kiswado/OneDrive/Documents/Poultry_Analytics_Portfolio_Complete/model_inputs.csv", na.strings = c("", "NA"), stringsAsFactors = FALSE)
+baseline <- read.csv("/historical_baseline.csv", na.strings = c("", "NA"), stringsAsFactors = FALSE)
+inputs <- read.csv("/model_inputs.csv", na.strings = c("", "NA"), stringsAsFactors = FALSE)
 
 value_of <- function(df, key_col, key, value_col = "value") {
   v <- df[df[[key_col]] == key, value_col]
