@@ -1,0 +1,14 @@
+input,value,unit,status,definition
+Survival rate,0.96,ratio,Baseline-derived assumption,Can be changed for scenarios; historical batch survival was 96%
+Average selling price per bird sold,17291.666666666668,NGN/bird,Baseline-derived approximate,"₦830,000 divided by 48 birds sold"
+Day-old chick cost per bird placed,2050.0,NGN/bird,Baseline-derived actual,Historical purchase cost per chick
+Commercial starter + finisher feed per bird placed,3728.0,NGN/bird,Baseline-derived actual,Historical feed cost per bird placed; validate feeding quantities before scale-up
+Medication/supplements per bird placed,340.0,NGN/bird,Baseline-derived approximate,Does not include any additional unrecorded veterinary costs
+In-house feed estimate per bird placed,1800.0,NGN/bird,Estimate only,Excludes several operating and capital costs; not a proven saving
+Other operating costs per bird placed,,NGN/bird,Required input missing,"Labour, litter, water, fuel, transport, cleaning, extra vaccines, etc."
+Capital expenditure before next cycle,,NGN,Required input missing,"Incubator, truck, mill, solar and infrastructure quotes"
+Egg cost per fertilized egg,,NGN/egg,Required input missing,Needed for hatchery model
+Fertility rate,,ratio,Required input missing,Measure or use clearly labelled scenario assumptions
+Hatchability of fertile eggs,,ratio,Required input missing,Measure or use clearly labelled scenario assumptions
+Usable chick rate after hatch,,ratio,Required input missing,Measure or use clearly labelled scenario assumptions
+Fuel and transport per cycle,,NGN/cycle,Required input missing,Truck purchase does not eliminate fuel and maintenance costs

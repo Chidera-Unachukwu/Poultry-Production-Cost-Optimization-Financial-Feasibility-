@@ -1,0 +1,14 @@
+category,metric,value,unit,status,notes
+Production,Birds placed,50.0,birds,Actual,50 day-old chicks purchased
+Production,Birds died,2.0,birds,Actual,Reported by user
+Production,Birds sold,48.0,birds,Actual,Reported by user
+Revenue,Total sales revenue,830000.0,NGN,Approximate actual,"User clarified this is total sales revenue, not profit"
+Cost,Day-old chicks,102500.0,NGN,Actual/documented,"50 chicks at ₦2,050 each"
+Cost,Commercial starter feed,100400.0,NGN,Actual/documented,4 bags × 25kg; amount from original research
+Cost,Commercial finisher feed,86000.0,NGN,Actual/documented,4 bags × 25kg; amount from original research
+Cost,Medication and supplements,17000.0,NGN,Approximate actual,Approximate amount reported by user
+Cost,Other operating expenses,,NGN,Unknown,Must be collected; excluded from preliminary surplus
+Feed alternative,In-house starter feed estimate,45000.0,NGN per 50-bird batch,Estimate only,Not implemented in actual cycle; ingredient-price estimate
+Feed alternative,In-house finisher feed estimate,45000.0,NGN per 50-bird batch,Estimate only,Not implemented in actual cycle; ingredient-price estimate
+Feed alternative,In-house feed total estimate,90000.0,NGN per 50-bird batch,Estimate only,"Excludes transport, milling, fuel/power, labour, wastage, quality control and equipment costs"
+Capital plan,"Truck, feed mill, solar, incubator",,NGN,Not priced,Planned investments; not treated as already owned or free

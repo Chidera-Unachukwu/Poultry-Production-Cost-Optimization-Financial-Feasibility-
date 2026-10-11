@@ -1,0 +1,7 @@
+scenario,birds_placed,assumed_survival_rate,sale_price_multiplier,known_cost_multiplier,illustrative_revenue_NGN,known_costs_only_NGN,preliminary_surplus_before_missing_costs_and_capex_NGN,warning
+Baseline-equivalent illustration,5000,0.96,1.0,1.0,83000000.0,30590000.0,52410000.0,Scenario illustration only; excludes unrecorded operating costs and capital expenditure
+Selling price down 10%,5000,0.96,0.9,1.0,74700000.0,30590000.0,44110000.0,Scenario illustration only; excludes unrecorded operating costs and capital expenditure
+Known unit costs up 10%,5000,0.96,1.0,1.1,83000000.0,33649000.0,49351000.0,Scenario illustration only; excludes unrecorded operating costs and capital expenditure
+Survival falls to 92%,5000,0.92,1.0,1.0,79541666.66666667,30590000.0,48951666.66666667,Scenario illustration only; excludes unrecorded operating costs and capital expenditure
+Price down 10% and known costs up 10%,5000,0.96,0.9,1.1,74700000.0,33649000.0,41051000.0,Scenario illustration only; excludes unrecorded operating costs and capital expenditure
+"Price down 10%, survival 92%, costs up 10%",5000,0.92,0.9,1.1,71587500.0,33649000.0,37938500.0,Scenario illustration only; excludes unrecorded operating costs and capital expenditure
